@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.row{
+    margin: 0;
+}
+
+.first{
+    background-image: url(../img/first.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 465px;
+}
+.first h1{
+    font-size: 70px;
+    color: #fff; 
+    text-transform: uppercase;
+    padding-top: 260px;
+    padding-left: 20%
+}
+
+.second{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.second h2{
+    margin-top: 22px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #01a89e;
+    font-size: 48px;
+}
+.second p{
+    margin-top: 22px;
+    color: #7f7f7f;
+    font-size: 23px;
+}
+.second .content{
+  padding-right: 0;
+  padding-left: 0
+}
+
+.third{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 763px;
+}
+.third p{
+    margin-top: 415px;
+    color: #000000;
+    font-size : 24px
+
+}
+.third .container1{
+    width: 980px;
+    margin: 0 auto
+}
+
+.fourth h3{
+    font-size:48px;
+    margin-top: 105px;
+    margin-bottom: 95px;
+    text-transform: uppercase;
+    color: #01a89e;
+}
+.fourth h5{
+    font-size:48px;
+    margin-top: 15px;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+    color: #01a89e; 
+}
+.fourth .row{
+    margin-bottom: 85px;
+}
+.fourth p{
+    color: #7f7f7f;
+    font-size: 22px;
+    line-height: 1.8
+}
+
+
+
+.fifth{
+    background: #01a89e;
+    padding-top: 120px;
+    padding-bottom: 85px;
+}
+.fifth h3{
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.fifth .box{
+    line-height: 220px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.fifth .box img{
+   border-radius: 50%;
+   margin: 0 auto;
+   display: inline-block
+}
+.fifth span{
+    color: #fff;
+    font-size: 24px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .container2 {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%
+    }
+}
